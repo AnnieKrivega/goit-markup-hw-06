@@ -624,17 +624,17 @@ margin-bottom: 8px;
     margin-right: 8px;
 }
 .modal-form-submit {
-background-color: #4D5AE5;
-color: #FFFFFF;
-border: none;
-cursor: pointer;
-border-radius: 4px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-margin: auto;
-width: 169px;
-padding: 16px 32px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: auto;
+    width: 169px;
+    padding: 16px 32px;
 }
 
 .title {
