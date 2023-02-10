@@ -27,35 +27,43 @@ p{
 .soc:hover,
 .soc:focus{
     background: #404BBF;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .col:hover .about-customers-icon,
 .col:focus .about-customers-icon {
     fill: #404BBF;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modals:hover,
 .modals:focus {
     background-color: #404BBF;
     fill: #FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .col:hover,
 .col:focus{
     border: 1px solid #404BBF;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .pagination:hover,
 .pagination:focus {
     color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn:hover,
 .btn:focus{
-    color: #FFFFFF;
     background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);    ;
 }
 .active:hover,
 .active:focus{
     color: #FFFFFF;
     background: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters:hover,
 .filters:focus{
@@ -64,7 +72,15 @@ p{
 .ground-color:hover,
 .ground-color:focus{
     background: #31D0AA;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.dop:hover .modal-form-input-icon,
+.dop:focus .modal-form-input-icon {
+    border: 1px solid #4D5AE5;
+    fill: #4D5AE5;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .filter{
     cursor: pointer;
 }
@@ -496,7 +512,52 @@ p{
 }
 .about-card-icon {
 }
+.subscribe {
+    padding: 8px, 24px, 8px, 24px;
+}
+.text-subscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.subscribe-form {
 
+}
+.subscribe-form-input {
+
+}
+.subscribe-form-modal{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.subscribe-form-btn {
+    width: 77px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 8px 24px;
+    gap: 16px;
+    background: #4D5AE5;
+    border-radius: 4px;
+}
 .backdrop {
     position: fixed;
     top: 0;
@@ -579,8 +640,6 @@ margin-bottom: 8px;
     top: 50%;
     left: 16px;
     transform: translate(0, -50%);
-    height: 18px;
-    width: 18px;
     fill: #2E2F42;
 }
 .modal-form-message {
@@ -624,6 +683,7 @@ margin-bottom: 8px;
     margin-right: 8px;
 }
 .modal-form-submit {
+    display: block;
     background-color: #4D5AE5;
     color: #FFFFFF;
     border: none;
@@ -635,6 +695,7 @@ margin-bottom: 8px;
     margin: auto;
     width: 169px;
     padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .title {
